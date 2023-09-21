@@ -1,0 +1,22 @@
+@media (max-width: 1545px) {
+    .pg2sectionsecond{
+        padding-top: 160px;
+    padding-bottom: 160px;
+    padding-left: 40px;
+    padding-right: 40px;
+    /* background-color: aqua; */
+    }
+    .secondline{
+    gap: 1009px;
+
+    }
+    .thirdline{
+    gap: 80px;
+    justify-content: flex-start;
+    align-items: center;
+    
+    }
+    .eightimage{
+        width: 400px;
+    }
+}

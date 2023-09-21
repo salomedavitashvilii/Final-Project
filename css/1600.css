@@ -1,0 +1,17 @@
+@media (max-width: 1650px) {
+    .sectionfour{
+    padding: 160px 16px;
+    }
+    .smallpics{
+        gap: 24px;
+    }
+    .leftarrow{
+        margin-right: 0;
+    }
+.rightarrow{
+    margin-left: 0;
+}
+.forresponsive{
+    width: 300px;
+}
+}
