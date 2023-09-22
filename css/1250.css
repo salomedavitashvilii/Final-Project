@@ -1,17 +1,7 @@
 @media (max-width: 1250px) {
     
     .sectionfirst {
-        /* width: 50%; */
-        /* height: 720px; */
-        /* flex-shrink: 0; */
-        background-image: url(..//images/Rectangle\ 106.png);
-        /* background-position: center; */
-        display: flex;
-        /* background-size: cover; */
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        /* padding: 283px 584px 188px 585px; */
+        
     }
     .sectiontwo {
         display: flex;
