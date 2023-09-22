@@ -29,7 +29,9 @@ header {
     z-index: 1;
 
 }
-
+.burgermenu{
+    display: none;
+}
 .list {
     display: flex;
     justify-content: space-between;
@@ -98,8 +100,9 @@ span {
 
 /* section first styles... */
 .sectionfirst {
-    /* width: 100%; */
-    height: 720px;
+    width: 100%;
+    /* height: 720px; */
+    height: auto;
     /* flex-shrink: 0; */
     background-image: url(..//images/Rectangle\ 106.png);
     display: flex;
@@ -200,8 +203,8 @@ h2 {
     justify-content: space-between;
     align-items: center;
     background: #402101;
+    /* width: 100%; */
 }
-
 h3 {
     /* padding: 96px 844px 778px 854px; */
     /* padding: 96px 844px 40px 854px; */
@@ -215,7 +218,30 @@ h3 {
     margin-top: 96px;
     /* margin-bottom: 40px; */
 }
+.zoomout{
+    /* width: 100%; */
+}
 
+  /* .first{
+    max-width: 690px;
+width: 100%;
+  }
+  .second{
+    max-width: 440px;
+width: 100%;
+  }
+  .third{
+    max-width: 315px;
+    width: 100%;
+  }
+  .fourth{
+    max-width: 440px;
+    width: 100%;
+  } */
+  .zoomout_bottom {
+    /* width: 30%; */
+    /* max-width: 300px; */
+  }
 .uppertwo {
     display: flex;
     justify-content: space-between;
@@ -253,7 +279,6 @@ h4 {
     /* padding: 160px 800px 40px 810px; */
     /* width: 410px; */
 }
-
 .smallpics {
     display: flex;
     /* justify-content: space-between; */
@@ -350,7 +375,7 @@ emailgraph{
     justify-content: center;
     align-items: center;
     /* padding: 161px 732px 40px 754px; */
-    padding: 161px 242px;
+    padding: 160px 240px;
 
 }
 
@@ -376,7 +401,8 @@ h6 {
 }
 
 .cards {
-    width: 32%;
+    max-width: 439px;
+    width: 100%;
     /* display: flex; */
     /* width: 439px; */
     /* height: 129px; */
@@ -445,6 +471,7 @@ footer {
     justify-content: center;
     align-items: flex-start;
     gap: 306px;
+    /* gap: 100px; */
     background: #402101;
 }
 

@@ -1,0 +1,102 @@
+@media (max-width: 1250px) {
+    
+    .sectionfirst {
+        width: 50%;
+        /* height: 720px; */
+        /* flex-shrink: 0; */
+        background-image: url(..//images/Rectangle\ 106.png);
+        /* background-position: center; */
+        display: flex;
+        /* background-size: cover; */
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* padding: 283px 584px 188px 585px; */
+    }
+    .sectiontwo {
+        display: flex;
+        /* justify-content: space-between; */
+        justify-content: center;
+        align-items: center;
+        padding: 160px 150px;
+        gap: 30px;
+    }
+    
+    .zoomout {
+        /* width: 50%; */
+    }
+
+    .uppertwo {
+        /* gap: 10px; */
+        /* row-gap: 10px; */
+    }
+
+    .lowerthree {
+        gap: 30px;
+    }
+
+    .zoomout_top {
+        /* width: 50%; */
+    }
+
+    .first {
+        /* max-width: 690px; */
+        width: 50%;
+        margin-left: 50px;
+    }
+    .mesame{
+        width: 50%;
+
+    }
+
+    .second {
+        /* max-width: 440px; */
+        width: 33%;
+        margin-right: 50px;
+    }
+
+    .third {
+        /* max-width: 315px; */
+        width: 25%;
+        margin-left: 50px;
+        /* margin-right: 10px; */
+        /* gap: 1px; */
+    }
+    .mesame{
+        margin-left: -10px;
+    }
+/* .firsttwobox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+} */
+    .fourth {
+        /* max-width: 440px; */
+        width: 34%;
+        margin-right: 50px;
+        /* margin-left: 20px; */
+        /* height: 260px; */
+
+    }
+
+    .zoomout_bottom {
+        /* width: 30%; */
+        /* max-width: 300px; */
+    }
+    .price{
+        /* width: 40%; */
+        font-size: 10px;
+    padding: 10px 12px 9px 12px;
+
+    }
+    footer {
+        display: flex;
+        padding: 32px 365px;
+        justify-content: center;
+        align-items: flex-start;
+        /* gap: 306px; */
+        gap: 90px;
+        background: #402101;
+    }
+}

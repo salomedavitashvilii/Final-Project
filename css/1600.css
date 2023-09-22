@@ -1,4 +1,7 @@
-@media (max-width: 1650px) {
+@media (max-width: 1700px) {
+    .burgermenu{
+        display: none;
+    }
     .sectionfour{
     padding: 160px 16px;
     }
@@ -12,6 +15,14 @@
     margin-left: 0;
 }
 .forresponsive{
-    width: 300px;
+    /* width: 300px; */
+    width: 100%;
+}
+.sextionsix{
+    padding: 160px 45px;
+}
+.cards{
+    max-width: 439px;
+    width: 100%;
 }
 }

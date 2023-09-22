@@ -1,6 +1,12 @@
-@media (max-width: 1545px) {
+@media (max-width: 1440px) {
+    header {
+        
+        padding: 26px 120px; }
+    .burgermenu{
+        display: none;
+    }
     .forresponsive{
-        /* width: 100%; */
+        width: 100%;
         /* width: 315px; */
     }
     .pg2sectionsecond{
@@ -22,5 +28,15 @@
     }
     .eightimage{
         width: 400px;
+    }
+    .sextionsix{
+        padding: 160px 45px;
+    }
+    .cards{
+        max-width: 439px;
+        width: 100%;
+    }
+    .cardsdiv{
+        gap: 16px;
     }
 }

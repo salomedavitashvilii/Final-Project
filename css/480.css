@@ -1,4 +1,7 @@
 @media (max-width: 440px) {
+    .list{
+        display: none;
+    }
     .h10{
         color: #FFF;
 font-family: Inter;
