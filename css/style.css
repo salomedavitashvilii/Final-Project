@@ -104,6 +104,7 @@ span {
     height: 720px;
     /* height: auto; */
     /* flex-shrink: 0; */
+    /* background-image: url(..//images/Rectangle\ 106.png); */
     background-image: url(..//images/Rectangle\ 106.png);
     display: flex;
     background-size: cover;
