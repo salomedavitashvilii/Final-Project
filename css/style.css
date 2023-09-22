@@ -611,6 +611,14 @@ background: #FFF;
 margin-left: -20px;
 border: none;
 }
+.pandarrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 191px; */
+    width: 180px;
+    margin-right: 59px;
+}
 .pwitharrow{
     color: #402101;
 font-family: Inter;
@@ -618,12 +626,13 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-width: 155px;
+letter-spacing: 0.5px;
+/* width: 155px; */
 height: 22px;
-margin-right: 12px;
+/* margin-right: 12px; */
 }
 .arrowwithp{
-    margin-right: 59px;
+    /* margin-right: 59px; */
 }
 
 .writingbox{
