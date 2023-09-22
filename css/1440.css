@@ -1,4 +1,8 @@
 @media (max-width: 1545px) {
+    .forresponsive{
+        /* width: 100%; */
+        /* width: 315px; */
+    }
     .pg2sectionsecond{
         padding-top: 160px;
     padding-bottom: 160px;

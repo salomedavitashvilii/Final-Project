@@ -1,0 +1,21 @@
+@media (max-width: 440px) {
+    .h10{
+        color: #FFF;
+font-family: Inter;
+font-size: 5px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 394px;
+height: 39px;
+    }
+    .pg2sectionfirst{
+        width: 394px;
+height: 109px;
+flex-shrink: 0;
+padding: 57px 43px 58px 43px;
+margin-top: 57px;
+margin-bottom: 58px;
+width: 100%;
+    }       
+}

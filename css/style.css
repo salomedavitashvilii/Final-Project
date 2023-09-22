@@ -36,6 +36,17 @@ header {
     align-items: center;
     gap: 60px;
 }
+.liststyles{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 122.222% */
+}
+.activedark{
+    color: #D5906E;
+}
 
 /* .headernav{
     display: flex;
@@ -79,6 +90,8 @@ span {
 
 .cart1 {
     width: 24px;
+    color: #FFF;
+    /* fill: #FFF; */
     /* height: 24px; */
     /* flex-shrink: 0; */
 }
@@ -550,8 +563,53 @@ footer {
 }
 .searchbox{
     display: flex;
-    max-width: 940px;
-    width: 100%;
+    /* max-width: 940px; */
+    /* width: 100%; */
+}
+.emailbox{
+    display: flex;
+}
+.emailgraph{
+    width: 331px;
+    height: 56px;
+    border-radius: 10px;
+border: 1px solid #FFF;
+    background-color: transparent;
+    /* padding: 16px; */
+    color: black;
+    /* padding: 19px 366px 18px 19px; */
+    padding-left: 19px;
+    color: #fff;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.subscribebutton{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    display: flex;
+width: 251px;
+padding: 17px 0px;
+flex-shrink: 0;
+border-radius: 0px 10px 10px 0px;
+background: #402101;
+margin-left: -9px; */
+display: flex;
+width: 151px;
+display: flex;
+height: 56px;
+/* padding: 17px 26px 17px 25px; */
+justify-content: center;
+align-items: center;
+border-radius: 0px 10px 10px 0px;
+background: #FFF;
+margin-left: -20px;
+border: none;
 }
 .pwitharrow{
     color: #402101;
@@ -589,6 +647,7 @@ flex-shrink: 0;
 border-radius: 0px 10px 10px 0px;
 background: #402101;
 margin-left: -9px;
+color: #FFF;
 }
 .secondline{
     display: flex;
@@ -629,6 +688,11 @@ margin-left: -9px;
 }
 .eightimage{
     width: 100%;
+}
+.priceandcart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .cardsprice{
     margin-top: 28px;

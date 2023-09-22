@@ -1,0 +1,54 @@
+@media (max-width: 744px) {
+    .pg2sectionfirst{
+        padding: 240px 126px;
+    }
+    .searchbox{
+        /* width: 477px; */
+        /* margin-right: -50px; */
+    }
+    .writingbox{
+width: 257px;
+    }
+    .searchbutton{
+width: 200px;
+margin-right: 22px;
+/* margin-left: 32px; */
+    }
+    .pwitharrow{
+        color: #402101;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 155px;
+margin-right: 22px;
+/* word-wrap: normal; */
+/* overflow-wrap: ; */
+    }
+    .arrowwithp{
+        margin-right: 32px;
+        /* margin-left: 12px; */
+    }
+    .secondline{
+        gap: 349px;
+    
+        }
+    .eightimage{
+        width: 330px;
+        /* gap: 40px; */
+    }
+    .thirdline{
+        gap: 40px;}
+
+        .noactiveimage{
+            display: none;
+        }
+        .pg2sectionsecond{
+            padding-top: 160px;
+        padding-bottom: 160px;
+        padding-left: 22px;
+        padding-right: 22px;
+        /* background-color: aqua; */
+        }
+}
