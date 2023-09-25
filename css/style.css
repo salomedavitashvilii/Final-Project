@@ -32,7 +32,11 @@ header {
 .burgermenu{
     display: none;
 }
-.fa-bars,
+.fa-bars {
+    color: white;
+    font-size: 32px;
+    display: none;
+}
 .fa-xmark {
     color: white;
     font-size: 32px;

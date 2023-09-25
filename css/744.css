@@ -26,9 +26,34 @@
     .list{
         display: none;
     }
+    .fa-bars {
+        display: block;
+    }
+
+    .burgermenu {
+        background-color: #ffd9b3;
+        position: fixed;
+        top: 95px;
+        width: 15%;
+        height: 100px;
+        left: -30%;
+        transition: .5s linear;
+    }
+
+    .burgermenuul {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .show{
+        left: 0;
+    }
     .burgermenu{
         /* background-color: aqua; */
-        display: block;
+        /* display: block; */
         /* padding: 32px 632px 32px 80px; */
     }
     .sectiontwo{
@@ -107,30 +132,7 @@ margin-right: 22px;
 
             gap: 20px;
         } 
-        .fa-bars {
-            display: block;
-        }
-    
-        .burgermenu {
-            background-color: rgb(86, 183, 200);
-            position: fixed;
-            top: 156px;
-            width: 30%;
-            height: 300px;
-            left: -30%;
-            transition: .5s linear;
-        }
-    
-        .burgermenuul {
-            height: 100%;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around;
-        }
-    
-        .show{
-            left: 0;
-        }
+       
         .pg3sectionfirst{
             padding: 112px 122px 112px 122px;
         

@@ -9,7 +9,31 @@
         /* max-width: 420px; */
         /* width: 100%; */
     }
+    .fa-bars {
+        display: block;
+    }
 
+    .burgermenu {
+        background-color: #ffd9b3;
+        position: fixed;
+        top: 95px;
+        width: 25%;
+        height: 100px;
+        left: -30%;
+        transition: .5s linear;
+    }
+
+    .burgermenuul {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .show{
+        left: 0;
+    }
     .sectionfirst{
         padding: 50px 50px;
     height: 500px;
