@@ -900,7 +900,8 @@ margin-top: 24px;
 
 .forbackground {
     display: flex;
-    width: 1170px;
+    width: 1190px;
+    /* background-color: saddlebrown; */
     flex-direction: column;
     justify-content: space-between;
     align-items: center;

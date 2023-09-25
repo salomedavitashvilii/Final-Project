@@ -180,4 +180,37 @@
         padding: 112px 450px 112px 300px;
     
         }
+        .h12{
+            text-align: center;
+        }
+        .pg3sectionsecond{
+            padding: 160px 40px;
+
+        }
+        .andmap{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            gap: 0;
+        }
+        .forbackground{
+            display: block;
+            width: 664px;
+height: 656px;
+/* justify-content: flex-start; */
+/* justify-content: flex-start; */
+/* justify-content: center; */
+/* align-items: flex-start; */
+/* margin-top: 0; */
+/* margin-bottom: 0; */
+        }
+        .mapdimensions{
+            width: 664px;
+height: 320px;
+flex-shrink: 0;
+        }
+        .supportaddresses{
+            padding: 40px 470px 40px 40px;
+        }
 }

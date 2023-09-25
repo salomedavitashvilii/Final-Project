@@ -1,0 +1,90 @@
+@media (max-width: 420px) {
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* justify-content: center; */
+        /* gap: 1px; */
+        /* max-width: 420px; */
+        /* width: 100%; */
+    }
+    .sectionfirst{
+        padding: 50px 50px;
+    height: 500px;
+        }
+        .h10{
+            font-size: 20px;
+        text-align: center;
+        width: 350px;
+
+        margin-bottom: 24px;
+        margin-top: 100px;
+        }
+        .pg2shopnow{
+            width: 280px;
+        }
+        .searchbox{
+            width: 230px;
+        }
+        .searchbutton{
+            width: 80px;
+        }
+        .eightimage{
+            width: 300px;
+        }
+        .writingbox{
+            width: 150px;
+        }
+        .categoriesdiv{
+            font-size: 25px;
+            width: 150px;
+        }
+        .sortandarrow{
+            gap: 10px;
+        }
+        .scrollingnumbers{
+            width: 310px;
+            /* height: 20px; */
+        }
+        .numbers{
+            height: 40px;
+        }
+        .backandfront{
+            height: 40px;
+
+        }
+        .secondline{
+            gap: 40px;
+        }
+        .section1stp{
+        letter-spacing: 0;
+            width: 380px;
+            margin-bottom: 120px;
+        }
+        h2{
+            font-size: 20px;
+            margin-top: 40px;
+        }
+        h5{
+        
+        font-size: 20px;
+        }
+        .emailbox{
+            width: 290px;
+            }
+            .emailgraph{
+                width: 200px;
+            }
+            h6{
+                font-size: 20px;
+            }
+            .cards{
+                height: 200px;
+            }
+            .headerearthly{
+                font-size: 20px;
+            }
+            span{
+                font-size: 20px;
+            }
+}

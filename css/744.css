@@ -84,7 +84,7 @@ margin-right: 22px;
         }
 
         footer {
-            
+            /* gap: 20px; */
         } 
         .fa-bars {
             display: block;
@@ -111,7 +111,22 @@ margin-right: 22px;
             left: 0;
         }
         .pg3sectionfirst{
-            padding: 112px 122px;
+            padding: 112px 122px 112px 122px;
         
             }
     }
+@media (max-width: 735px) {
+    .pg3sectionfirst{
+        padding: 32px 20px;
+    
+        }
+        .mapdimensions{
+            width: 440px;
+            height: 320px;
+        }
+        .forbackground{
+            width: 440px;
+height: 615px;
+flex-shrink: 0;
+        }
+}
