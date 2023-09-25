@@ -1,24 +1,243 @@
-@media (max-width: 440px) {
-    .list{
+@media (max-width: 675px) {
+    header {
+        padding: 26px 20px;
+
+    }
+    .headerearthly{
+        display: flex;
+        flex-direction: column;
+    }
+    .sectionfirst{
+    padding: 132px 20px;
+height: 600px;
+    }
+    .secondline{
+        gap: 81px;
+    }
+    .sectiontwo{
+        /* padding: 50px 42px; */
+    }
+
+    h1 {
+        /* width: 113px; */
+    }
+
+    .burgermenu {
+        /* background-color: aqua; */
+        display: block;
+        /* padding: 32px 632px 32px 80px; */
+    }
+
+    .list {
         display: none;
     }
-    .h10{
+
+    .sectiontwo {
+        padding: 64px 57px;
+    }
+
+    h2 {
+        font-size: 32px;
+        /* width: 429px; */
+        /* margin-top: 5px; */
+        text-align: center;
+    }
+    .section1stp{
+        width: 500px;
+    }
+
+    .h10 {
         color: #FFF;
+        font-family: Inter;
+        font-size: 5px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        width: 394px;
+        height: 39px;
+    }
+
+    .first {
+        width: 90%;
+        margin-left: 5px;
+    }
+
+    .second {
+        width: 90%;
+        margin-right: 5px;
+    }
+
+    .third {
+        /* max-width: 440px; */
+        /* width: 90%; */
+    }
+    .mesame{
+        width: 100%;
+        max-width: 604px;
+        height: 322px;
+        margin-left: 5px;
+    }
+    /* .zoomout_bottom{
+        max-width: 604px;
+        width: 100%;
+        height: 322px;
+    } */
+
+    .fourth {
+        display: none;
+    }
+    .lowerthree{
+        max-width: 606px;
+        width: 90%;
+    }
+    .displaynone2 {
+        display: none;
+    }
+.sectionfive{
+    height: 200px;
+}
+h5{
+    margin-bottom: 24px;
+
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footlist{
+    display: flex;
+flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.responsivefoot{
+    /* margin: 0 auto; */
+    display: flex;
+flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.vert{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactslist{
+    display: flex;
+    flex-direction: row;
+}
+.details{
+    display: none;
+}
+.earthlyartisry{
+    /* width: 43px; */
+}
+    /* .pg2sectionfirst {
+        width: 394px;
+        height: 109px;
+        flex-shrink: 0;
+        padding: 57px 43px 58px 43px;
+        margin-top: 57px;
+        margin-bottom: 58px;
+        width: 100%;
+    } */
+.pg2sectionfirst{
+    background-image: url(..//images/Rectangle\ 110.png);
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 57px 43px;
+    gap: 22px;
+}
+.h10{
+    color: #FFF;
 font-family: Inter;
-font-size: 5px;
+font-size: 32px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-width: 394px;
 height: 39px;
-    }
-    .pg2sectionfirst{
-        width: 394px;
-height: 109px;
-flex-shrink: 0;
-padding: 57px 43px 58px 43px;
+margin-bottom: 0;
 margin-top: 57px;
-margin-bottom: 58px;
-width: 100%;
-    }       
+}
+.displaynone480{
+display: none;
+}
+.firstline{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    /* column-gap: 25px; */
+    gap: 25px;
+}
+.searchbox{
+    width: 366px;
+    height: 56px;
+}
+.searchbutton{
+    width: 166px;
+}
+    footer{
+        align-items: center;
+        padding: 32px 123px;
+    }
+    .footerearthly{
+        /* text-align: center; */
+    }
+    .earthlyartisry{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .fa-bars {
+        display: block;
+    }
+
+    .burgermenu {
+        background-color: rgb(86, 183, 200);
+        position: fixed;
+        top: 156px;
+        width: 30%;
+        height: 300px;
+        left: -30%;
+        transition: .5s linear;
+    }
+
+    .burgermenuul {
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .show{
+        left: 0;
+    }
+    .pg3sectionfirst{
+        padding: 32px 20px;
+    
+        }
+        .pg3inputs{
+            width: 440px;
+            padding: 24px;
+        }
+        .inputsbox{
+            /* padding: 24px; */
+            width: 100%;
+        }
+        .fortransparent{
+            width: 160px;
+        }
+        .nameandemail{
+            /* gap: 80px; */
+        }
+        .messagebox{
+            width: 390px;
+        }
 }

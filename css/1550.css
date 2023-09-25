@@ -1,0 +1,27 @@
+@media (max-width: 1550px){
+    .eightimage{
+        width: 315px;
+    }
+    .thirdline {
+        gap: 80px;
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+    .pg2sectionsecond{
+        padding: 160px 40px;
+     }
+     .eightimage {
+        /* width: 400px; */
+        /* height: 240px; */
+    }
+    .eightimage {
+        width: 400px;
+        height: 240px;
+    }
+    .pg3sectionfirst{
+    padding: 112px 700px 112px 240px;
+
+    }
+
+}

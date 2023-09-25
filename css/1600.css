@@ -25,4 +25,27 @@
     max-width: 439px;
     width: 100%;
 }
+.viewmorebutton{
+    display: none;
+}
+.pg2sectionsecond{
+   padding: 160px 80px;
+}
+.secondline{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* justify-content: center; */
+    gap: 1009px;
+    /* gap: 51%; */
+    /* gap: 57%; */
+    margin-top: 61px;
+}
+.thirdline{
+    align-items: center;
+}
+.eightimage{
+    width: 400px;
+    /* width: 100%; */
+    /* height: auto; */
+}
 }

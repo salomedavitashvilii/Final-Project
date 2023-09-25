@@ -32,6 +32,12 @@ header {
 .burgermenu{
     display: none;
 }
+.fa-bars,
+.fa-xmark {
+    color: white;
+    font-size: 32px;
+    display: none;
+}
 .list {
     display: flex;
     justify-content: space-between;
@@ -334,6 +340,9 @@ h4 {
     left: 16px;
     letter-spacing: 0.5px;
 }
+.viewmorebutton{
+    display: none;
+}
 
 .sectionfive {
     display: flex;
@@ -581,8 +590,8 @@ footer {
     /* padding: 160px 240px; */
     padding-top: 160px;
     padding-bottom: 160px;
-    padding-left: 240px;
-    padding-right: 240px;
+    padding-left: 230px;
+    padding-right: 230px;
 }
 .firstline{
     display: flex;
@@ -644,7 +653,7 @@ border: none;
     justify-content: space-between;
     align-items: center;
     /* width: 191px; */
-    width: 180px;
+    /* width: 180px; */
     margin-right: 59px;
 }
 .pwitharrow{
@@ -657,7 +666,7 @@ line-height: normal;
 letter-spacing: 0.5px;
 /* width: 155px; */
 height: 22px;
-/* margin-right: 12px; */
+margin-right: 12px;
 }
 .arrowwithp{
     /* margin-right: 59px; */
@@ -720,11 +729,20 @@ color: #FFF;
 .thirdline{
     display: flex;
     flex-wrap: wrap;
-    gap: 60px;
+    gap: 50px;
     margin-top: 94px;
 }
 .eightimage{
     width: 100%;
+}
+.cardscaption{
+    color: #B53B1B;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 24px;
 }
 .priceandcart{
     display: flex;

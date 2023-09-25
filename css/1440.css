@@ -1,42 +1,80 @@
 @media (max-width: 1440px) {
     header {
-        
-        padding: 26px 120px; }
-    .burgermenu{
+
+        padding: 26px 120px;
+    }
+
+    .burgermenu {
         display: none;
     }
-    .forresponsive{
+
+    .forresponsive {
         width: 100%;
         /* width: 315px; */
     }
-    .pg2sectionsecond{
-        padding-top: 160px;
-    padding-bottom: 160px;
-    padding-left: 40px;
-    padding-right: 40px;
-    /* background-color: aqua; */
-    }
-    .secondline{
-    gap: 1009px;
 
-    }
-    .thirdline{
-    gap: 80px;
-    justify-content: flex-start;
-    align-items: center;
-    
+    .pg2sectionsecond {
+        
+        padding-top: 161px;
+        padding-bottom: 161px;
+        padding-left: 40px;
+        padding-right: 40px;
+        /* background-color: aqua; */
     }
     .eightimage{
-        width: 400px;
+        height: 240px;
     }
-    .sextionsix{
+
+    .secondline {
+        gap: 1009px;
+
+    }
+
+    .pwitharrow {
+        /* width: 300px; */
+    }
+
+    .thirdline {
+        gap: 80px;
+        justify-content: flex-start;
+        align-items: center;
+        /* background-color: aquamarine; */
+    }
+
+    .eightimage {
+        width: 400px;
+        height: 240px;
+    }
+
+    .sextionsix {
         padding: 160px 45px;
     }
-    .cards{
+
+    .cards {
         max-width: 439px;
         width: 100%;
     }
-    .cardsdiv{
+
+    .cardsdiv {
         gap: 16px;
     }
+
+    .viewmorebutton {
+        display: none;
+    }
+}
+
+@media (max-width: 1439px){
+.thirdline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.secondline{
+    gap: 870px;
+}
+.searchbox{
+    width: 880px;
+}
 }

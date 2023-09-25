@@ -5,14 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/stylesheet.inter.css">
+    <link rel="stylesheet" href="css/stylesheet.rubik.css">
     <script src="https://kit.fontawesome.com/73f276487d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="stylesheet" href="css/1600.css"> -->
     <link rel="stylesheet" href="css/1600.css">
+    <link rel="stylesheet" href="css/1550.css">
     <link rel="stylesheet" href="css/1440.css">
-    <link rel="stylesheet" href="css/1300.css">
+    <link rel="stylesheet" href="css/1250.css">
+    <link rel="stylesheet" href="css/900.css">
     <link rel="stylesheet" href="css/744.css">
     <link rel="stylesheet" href="css/480.css">
+    <link rel="stylesheet" href="css/320.css">
+
     <title>Document</title>
 </head>
 
@@ -20,21 +26,38 @@
     <div class="container">
         <!-- header starts here... -->
         <header>
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-xmark"></i>
+
+
+            <nav class="burgermenu">
+                <ul class="burgermenuul">
+                    <li><a class="burgera" href="">HOME</a></li>
+                    <li><a class="burgera"  href="">ABOUT</a></li>
+                    <li><a class="burgera"  href="">CONTACT</a></li>
+                </ul>
+            </nav>
             <nav class="headernav">
                 <ul class="list">
                     <a href="index.html">
-                        <li class="liststyles">Home</li>
+                        <li class="liststyles activedark">Home</li>
                     </a>
                     <a href="artworks.html">
-                        <li class="liststyles activedark">Artworks</li>
+                        <li class="liststyles">Artworks</li>
                     </a>
                     <a href="contact.html">
                         <li class="liststyles">Contact</li>
                     </a>
                 </ul>
+                <!-- <i class="fa-solid fa-bars burgermenu"></i> -->
+                <!-- <img class="burgermenu" src="images/charm_menu-hamburger.png" alt=""> -->
+                
             </nav>
+
+            
+
             <a href="index.html">
-                <h1>Earthly<span>Artistry</span></h1>
+                <h1  class="headerearthly">Earthly<span>Artistry</span></h1>
             </a>
             <div class="texticon">
                 <p class="signin">Sign In</p>
@@ -88,7 +111,7 @@
                 </div>
 
                 </figure>
-                <figure>
+                <figure class="displaynone480">
                     <img class="eightimage" src="images/Rectangle 102 (1).png" alt="">
                     <figcaption class="cardscaption">
                         Product Name
@@ -199,7 +222,7 @@
         </section>
         <!-- footer starts here -->
         <footer>
-            <div>
+            <div class="responsivefoot">
                 <p class="h9">Hele</p>
                 <nav>
                     <ul class="footlist">
@@ -221,12 +244,12 @@
                     
                 </div>
             </div>
-            <a href="index.html">
-                <h1>Earthly<span>Artistry</span></h1>
+            <a class="earthlyartisry" href="index.html">
+                <h1 class="footerearthly">Earthly<span>Artistry</span></h1>
             </a>
-            <nav>
+            <nav class="vert">
                 <ul class="contactslist">
-                    <li>
+                    <li class="horizontal">
                         <div class="contacts">
                             <img src="images/Frame 140.png" alt="">
                             <p class="details">+123 45 67 89</p>
@@ -248,6 +271,8 @@
             </nav>
         </footer>
     </div>
+    <script src="script.js"></script>
+
 </body>
 
 </html>
