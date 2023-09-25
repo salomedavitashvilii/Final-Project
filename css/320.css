@@ -1,13 +1,15 @@
 @media (max-width: 420px) {
     header{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+        padding: 9px 20px;
+        /* display: flex; */
+        /* align-items: center; */
+        /* justify-content: space-between; */
         /* justify-content: center; */
         /* gap: 1px; */
         /* max-width: 420px; */
         /* width: 100%; */
     }
+
     .sectionfirst{
         padding: 50px 50px;
     height: 500px;
@@ -57,13 +59,21 @@
             gap: 40px;
         }
         .section1stp{
+            width: 310px;
         letter-spacing: 0;
-            width: 380px;
-            margin-bottom: 120px;
+            /* width: 380px; */
+            margin-bottom: 160px;
+        }
+        .shopnow{
+            width: 260px;
+        }
+        h2{
+            margin-top: 100px;
         }
         h2{
             font-size: 20px;
-            margin-top: 40px;
+            margin-top: 100px;
+            /* margin-bottom: 30px; */
         }
         h5{
         

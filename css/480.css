@@ -1,16 +1,15 @@
 @media (max-width: 675px) {
-    header {
-        padding: 26px 20px;
-
-    }
+    
     header{
         /* max-width: 375px; */
-        width: 100%;
+        padding: 26px 20px;
+
+        /* width: 100%; */
         /* gap: 20px; */
-        padding: 26px 5px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+        /* padding: 26px 5px; */
+        /* display: flex; */
+        /* align-items: center; */
+        /* justify-content: space-between; */
         /* justify-content: center; */
     }
     .headerearthly{
@@ -50,13 +49,16 @@ height: 600px;
     }
 
     h2 {
-        font-size: 32px;
+        font-size: 25px;
         /* width: 429px; */
         /* margin-top: 5px; */
         text-align: center;
+        width: 310px;
+        margin-top: 100px;
     }
     .section1stp{
-        width: 500px;
+        width: 4px;
+
     }
 
     .h10 {
