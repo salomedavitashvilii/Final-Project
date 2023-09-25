@@ -529,6 +529,7 @@ footer {
     font-style: normal;
     font-weight: 300;
     line-height: 24px;
+    width: 160px;
     /* 150% */
 }
 
@@ -957,4 +958,48 @@ height: 320px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+}
+/* hovers */
+.HelpCenter:hover, .subscribebutton:hover, .viewmorebutton:hover, .shopnow:hover, .numbers:hover, .searchbutton:hover, .pg2shopnow:hover, .page3button:hover, .button:hover {
+    background-color: pink;
+    color: #FFF;
+}
+
+.figimages:hover {
+    /* filter: grayscale(100%); */
+    filter: grayscale(80%);
+    transition: filter 0.7s;
+}
+.forresponsive:hover{
+    filter: blur(3px);
+    filter: grayscale(1);
+    filter: saturate(2.2);
+}
+
+.socialzoom:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s;
+}
+
+
+/* <div class="zoom-in-out-box"></div> */
+
+. {
+  margin: 24px;
+  width: 50px;
+  height: 50px;
+  background: #f50057;
+  animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
 }

@@ -224,16 +224,17 @@ line-height: normal;
     }
 
     .burgermenu {
-        background-color: rgb(86, 183, 200);
+        background-color: #ffd9b3;
         position: fixed;
-        top: 156px;
-        width: 30%;
-        height: 300px;
+        top: 95px;
+        width: 15%;
+        height: 100px;
         left: -30%;
         transition: .5s linear;
     }
 
     .burgermenuul {
+        display: flex;
         height: 100%;
         flex-direction: column;
         align-items: center;
