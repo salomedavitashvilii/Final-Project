@@ -67,6 +67,9 @@
         .shopnow{
             width: 260px;
         }
+        .h10{
+            width: 300px;
+        }
         h2{
             margin-top: 100px;
         }
@@ -89,7 +92,7 @@
                 font-size: 20px;
             }
             .cards{
-                height: 200px;
+                height: 230px;
             }
             .headerearthly{
                 font-size: 20px;
@@ -97,4 +100,46 @@
             span{
                 font-size: 20px;
             }
+            .forbackground{
+                width: 310px;
+                margin-bottom: 20px;
+            }
+            .mapdimensions{
+                width: 100%;
+            }
+            .pg3inputs{
+                width: 310px;
+                height: 280px;
+                padding: 15px;
+            }
+            .h11{
+                font-size: 20px;
+            }
+            .fortransparent{
+                width: 100px;
+            }
+            .fname{
+                margin-right: 10px;
+            }
+            .messagebox{
+                width: 275px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            .nameandemail{
+                margin-top: 10px;
+            }
+            .h11{
+                /* margin-top: 5px; */
+            }
+           .submitbox{
+            height: 30px;
+            width: 120px;
+            /* text-align: center; */
+            /* vertical-align: auto; */
+            padding: 6px 10px;
+           }
+           .pg3sectionsecond{
+            padding: 50px 40px;
+           }
 }
