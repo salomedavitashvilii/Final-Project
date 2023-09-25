@@ -1,7 +1,6 @@
 @media (max-width: 1250px) {
     header {
         padding: 26px 100px;
-
     }
 
     .list {
@@ -14,9 +13,6 @@
     .sectionfirst {
         width: 100%;
         height: 720px;
-        /* height: auto; */
-        /* flex-shrink: 0; */
-
         background-image: url(..//images/Rectangle\ 106.png);
         display: flex;
         background-size: cover;
@@ -24,7 +20,6 @@
         align-items: center;
         flex-direction: column;
         padding: 153px 454px 58px 455px;
-
     }
 
     .viewmorebutton {
@@ -51,42 +46,22 @@
         line-height: normal;
         margin-top: 16px;
         margin-bottom: 72px;
-        /* width: 650px; */
-        /* height: 57px; */
         letter-spacing: 1px;
-        /* line-height: 57px; */
     }
-
-
 
     .sectiontwo {
         display: flex;
-        /* justify-content: space-between; */
         justify-content: center;
         align-items: center;
         padding: 160px 150px;
         gap: 30px;
     }
 
-    .zoomout {
-        /* width: 50%; */
-    }
-
-    .uppertwo {
-        /* gap: 10px; */
-        /* row-gap: 10px; */
-    }
-
     .lowerthree {
         gap: 30px;
     }
 
-    .zoomout_top {
-        /* width: 50%; */
-    }
-
     .first {
-        /* max-width: 690px; */
         width: 50%;
         margin-left: 50px;
     }
@@ -97,48 +72,27 @@
     }
 
     .second {
-        /* max-width: 440px; */
         width: 33%;
         margin-right: 50px;
     }
 
     .third {
-        /* max-width: 315px; */
         width: 25%;
         margin-left: 50px;
-        /* margin-right: 10px; */
-        /* gap: 1px; */
     }
 
     .mesame {
         margin-left: -10px;
     }
 
-    /* .firsttwobox{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-} */
     .fourth {
-        /* max-width: 440px; */
         width: 34%;
         margin-right: 50px;
-        /* margin-left: 20px; */
-        /* height: 260px; */
-
-    }
-
-    .zoomout_bottom {
-        /* width: 30%; */
-        /* max-width: 300px; */
     }
 
     .price {
-        /* width: 40%; */
         font-size: 10px;
         padding: 10px 12px 9px 12px;
-
     }
 
     footer {
@@ -146,15 +100,8 @@
         padding: 32px 365px;
         justify-content: center;
         align-items: flex-start;
-        /* gap: 306px; */
         gap: 90px;
         background: #402101;
-    }
-
-    .eightimage {
-        /* max-width: 400px; */
-        /* width: 100%; */
-        /* height: 300px; */
     }
 
     .secondline {
@@ -165,57 +112,41 @@
         width: 600px;
     }
 
-    .writingbox {
-        /* width: 500px; */
-    }
-
-    .searchbutton {
-        /* width: 100px; */
-    }
-
     .noactiveimage {
         display: none;
     }
-    .pg3sectionfirst{
-        padding: 112px 450px 112px 300px;
-    
-        }
-        .h12{
-            text-align: center;
-        }
-        .pg3sectionsecond{
-            padding: 160px 40px;
 
-        }
-        .andmap{
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            /* justify-content: flex-start; */
-            justify-content: space-between;
-            gap: 40px;
-            padding: 0;
-        }
-        .forbackground{
-            display: block;
-            width: 600px;
-/* height: 656px; */
-/* justify-content: flex-start; */
-/* justify-content: flex-start; */
-/* justify-content: center; */
-/* align-items: flex-start; */
-/* margin-top: 0; */
-/* margin-bottom: 0; */
-        }
-        .mapdimensions{
-            /* width: 664px; */
-            width: 100%;
-height: 320px;
-flex-shrink: 0;
-        }
-        .supportaddresses{
-            /* padding: 40px 470px 40px 40px; */
-            /* margin-left: 40px; */
-            /* margin-bottom: 40px; */
-        }
+    .pg3sectionfirst {
+        padding: 112px 450px 112px 300px;
+
+    }
+
+    .h12 {
+        text-align: center;
+    }
+
+    .pg3sectionsecond {
+        padding: 160px 40px;
+
+    }
+
+    .andmap {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 40px;
+        padding: 0;
+    }
+
+    .forbackground {
+        display: block;
+        width: 600px;
+    }
+
+    .mapdimensions {
+        width: 100%;
+        height: 320px;
+        flex-shrink: 0;
+    }
 }

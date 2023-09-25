@@ -10,18 +10,16 @@
 
     .forresponsive {
         width: 100%;
-        /* width: 315px; */
     }
 
     .pg2sectionsecond {
-        
         padding-top: 161px;
         padding-bottom: 161px;
         padding-left: 40px;
         padding-right: 40px;
-        /* background-color: aqua; */
     }
-    .eightimage{
+
+    .eightimage {
         height: 240px;
     }
 
@@ -30,15 +28,10 @@
 
     }
 
-    .pwitharrow {
-        /* width: 300px; */
-    }
-
     .thirdline {
         gap: 80px;
         justify-content: flex-start;
         align-items: center;
-        /* background-color: aquamarine; */
     }
 
     .eightimage {
@@ -64,17 +57,18 @@
     }
 }
 
-@media (max-width: 1439px){
-.thirdline{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background-color: aqua; */
-}
-.secondline{
-    gap: 870px;
-}
-.searchbox{
-    width: 880px;
-}
+@media (max-width: 1439px) {
+    .thirdline {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .secondline {
+        gap: 870px;
+    }
+
+    .searchbox {
+        width: 880px;
+    }
 }

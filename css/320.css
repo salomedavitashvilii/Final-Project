@@ -1,14 +1,8 @@
 @media (max-width: 420px) {
-    header{
+    header {
         padding: 9px 20px;
-        /* display: flex; */
-        /* align-items: center; */
-        /* justify-content: space-between; */
-        /* justify-content: center; */
-        /* gap: 1px; */
-        /* max-width: 420px; */
-        /* width: 100%; */
     }
+
     .fa-bars {
         display: block;
     }
@@ -31,139 +25,165 @@
         justify-content: space-around;
     }
 
-    .show{
+    .show {
         left: 0;
     }
-    .sectionfirst{
+
+    .sectionfirst {
         padding: 50px 50px;
-    height: 500px;
-        }
-        .h10{
-            font-size: 20px;
+        height: 500px;
+    }
+
+    .h10 {
+        font-size: 20px;
         text-align: center;
         width: 350px;
 
         margin-bottom: 24px;
         margin-top: 100px;
-        }
-        .pg2shopnow{
-            width: 280px;
-        }
-        .searchbox{
-            width: 230px;
-        }
-        .searchbutton{
-            width: 80px;
-        }
-        .eightimage{
-            width: 300px;
-        }
-        .writingbox{
-            width: 150px;
-        }
-        .categoriesdiv{
-            font-size: 25px;
-            width: 150px;
-        }
-        .sortandarrow{
-            gap: 10px;
-        }
-        .scrollingnumbers{
-            width: 310px;
-            /* height: 20px; */
-        }
-        .numbers{
-            height: 40px;
-        }
-        .backandfront{
-            height: 40px;
+    }
 
-        }
-        .secondline{
-            gap: 40px;
-        }
-        .section1stp{
-            width: 310px;
+    .pg2shopnow {
+        width: 280px;
+    }
+
+    .searchbox {
+        width: 230px;
+    }
+
+    .searchbutton {
+        width: 80px;
+    }
+
+    .eightimage {
+        width: 300px;
+    }
+
+    .writingbox {
+        width: 150px;
+    }
+
+    .categoriesdiv {
+        font-size: 25px;
+        width: 150px;
+    }
+
+    .sortandarrow {
+        gap: 10px;
+    }
+
+    .scrollingnumbers {
+        width: 310px;
+    }
+
+    .numbers {
+        height: 40px;
+    }
+
+    .backandfront {
+        height: 40px;
+
+    }
+
+    .secondline {
+        gap: 40px;
+    }
+
+    .section1stp {
+        width: 310px;
         letter-spacing: 0;
-            /* width: 380px; */
-            margin-bottom: 160px;
-        }
-        .shopnow{
-            width: 260px;
-        }
-        .h10{
-            width: 300px;
-        }
-        h2{
-            margin-top: 100px;
-        }
-        h2{
-            font-size: 20px;
-            margin-top: 100px;
-            /* margin-bottom: 30px; */
-        }
-        h5{
-        
+        margin-bottom: 160px;
+    }
+
+    .shopnow {
+        width: 260px;
+    }
+
+    .h10 {
+        width: 300px;
+    }
+
+    h2 {
+        margin-top: 100px;
+    }
+
+    h2 {
         font-size: 20px;
-        }
-        .emailbox{
-            width: 290px;
-            }
-            .emailgraph{
-                width: 200px;
-            }
-            h6{
-                font-size: 20px;
-            }
-            .cards{
-                height: 230px;
-            }
-            .headerearthly{
-                font-size: 20px;
-            }
-            span{
-                font-size: 20px;
-            }
-            .forbackground{
-                width: 310px;
-                margin-bottom: 20px;
-            }
-            .mapdimensions{
-                width: 100%;
-            }
-            .pg3inputs{
-                width: 310px;
-                height: 280px;
-                padding: 15px;
-            }
-            .h11{
-                font-size: 20px;
-            }
-            .fortransparent{
-                width: 100px;
-            }
-            .fname{
-                margin-right: 10px;
-            }
-            .messagebox{
-                width: 275px;
-                margin-top: 20px;
-                margin-bottom: 20px;
-            }
-            .nameandemail{
-                margin-top: 10px;
-            }
-            .h11{
-                /* margin-top: 5px; */
-            }
-           .submitbox{
-            height: 30px;
-            width: 120px;
-            /* text-align: center; */
-            /* vertical-align: auto; */
-            padding: 6px 10px;
-           }
-           .pg3sectionsecond{
-            padding: 50px 40px;
-           }
+        margin-top: 100px;
+    }
+
+    h5 {
+
+        font-size: 20px;
+    }
+
+    .emailbox {
+        width: 290px;
+    }
+
+    .emailgraph {
+        width: 200px;
+    }
+
+    h6 {
+        font-size: 20px;
+    }
+
+    .cards {
+        height: 230px;
+    }
+
+    .headerearthly {
+        font-size: 20px;
+    }
+
+    span {
+        font-size: 20px;
+    }
+
+    .forbackground {
+        width: 310px;
+        margin-bottom: 20px;
+    }
+
+    .mapdimensions {
+        width: 100%;
+    }
+
+    .pg3inputs {
+        width: 310px;
+        height: 280px;
+        padding: 15px;
+    }
+
+    .h11 {
+        font-size: 20px;
+    }
+
+    .fortransparent {
+        width: 100px;
+    }
+
+    .fname {
+        margin-right: 10px;
+    }
+
+    .messagebox {
+        width: 275px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .nameandemail {
+        margin-top: 10px;
+    }
+
+    .submitbox {
+        height: 30px;
+        width: 120px;
+        padding: 6px 10px;
+    }
+    .pg3sectionsecond {
+        padding: 50px 40px;
+    }
 }
